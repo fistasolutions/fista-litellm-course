@@ -1,5 +1,5 @@
 [project]
-name = "projectname"
+name = "litellmdemo"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -8,12 +8,11 @@ authors = [
 ]
 requires-python = ">=3.12"
 dependencies = [
-    "crewai>=0.95.0",
-    "litellm>=1.61.3",
+    "litellm>=1.61.15",
 ]
 
 [project.scripts]
-projectname = "projectname:main"
+litellmdemo = "litellmdemo:main"
 
 [build-system]
 requires = ["hatchling"]
